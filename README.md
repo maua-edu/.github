@@ -111,25 +111,25 @@ flowchart LR
     <td width="33%" align="center" valign="top">
       <img src="https://img.shields.io/badge/%F0%9F%A5%87-1%C2%BA%20lugar-C69214?style=for-the-badge&labelColor=1F1F1F" alt="Primeiro lugar" />
       <h3>Em atualização</h3>
-      <p>O ranking automático preencherá este espaço com o projeto mais favoritado da vitrine.</p>
+      <p>Este espaço será preenchido automaticamente assim que um novo destaque da vitrine for publicado.</p>
       <p><code>⭐ stars</code> <code>🔁 forks</code> <code>🕒 sincronizando</code></p>
     </td>
     <td width="33%" align="center" valign="top">
       <img src="https://img.shields.io/badge/%F0%9F%A5%88-2%C2%BA%20lugar-94A3B8?style=for-the-badge&labelColor=1F1F1F" alt="Segundo lugar" />
       <h3>Em atualização</h3>
-      <p>O ranking automático preencherá este espaço com o segundo projeto mais favoritado da vitrine.</p>
-      <p><code>⭐ stars</code> <code>🧩 stack</code> <code>📌 destaque</code></p>
+      <p>Este espaço será preenchido automaticamente assim que um novo destaque da vitrine for publicado.</p>
+      <p><code>⭐ stars</code> <code>🔁 forks</code> <code>🕒 sincronizando</code></p>
     </td>
     <td width="33%" align="center" valign="top">
       <img src="https://img.shields.io/badge/%F0%9F%A5%89-3%C2%BA%20lugar-B45309?style=for-the-badge&labelColor=1F1F1F" alt="Terceiro lugar" />
       <h3>Em atualização</h3>
-      <p>O ranking automático preencherá este espaço com o terceiro projeto mais favoritado da vitrine.</p>
-      <p><code>⭐ stars</code> <code>🚀 impacto</code> <code>📘 README</code></p>
+      <p>Este espaço será preenchido automaticamente assim que um novo destaque da vitrine for publicado.</p>
+      <p><code>⭐ stars</code> <code>🔁 forks</code> <code>🕒 sincronizando</code></p>
     </td>
   </tr>
 </table>
 
-> O ranking acima é atualizado automaticamente com base no engajamento dos projetos publicados na vitrine.
+> O ranking acima é atualizado automaticamente a cada 6 horas com base nos repositórios públicos da vitrine. Última sincronização: 06/04/2026, 14:52.
 <!-- top-favoritados:end -->
 
 ---
