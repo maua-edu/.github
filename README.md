@@ -129,7 +129,6 @@ flowchart LR
   </tr>
 </table>
 
-> O ranking acima é atualizado automaticamente a cada 6 horas com base nos repositórios públicos da vitrine. Última sincronização: 06/04/2026, 14:52.
 <!-- top-favoritados:end -->
 
 ---

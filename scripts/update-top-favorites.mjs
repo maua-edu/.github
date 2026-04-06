@@ -122,7 +122,6 @@ function renderSection(repositories) {
     "  </tr>",
     "</table>",
     "",
-    `> O ranking acima é atualizado automaticamente a cada 6 horas com base nos repositórios públicos da vitrine. Última sincronização: ${generatedAt}.`,
     SECTION_END,
   ].join("\n");
 }
