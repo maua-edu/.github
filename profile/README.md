@@ -1,7 +1,7 @@
-<!-- Este conteúdo é espelhado em profile/README.md para alimentar a página pública da organização. -->
+<!-- Este conteúdo é espelhado em README.md para manter o perfil da organização alinhado com o repositório .github. -->
 
 <p align="center">
-  <img src="assets/banner-imt.png" alt="Instituto Mauá de Tecnologia" width="100%" />
+  <img src="../assets/banner-imt.png" alt="Instituto Mauá de Tecnologia" width="100%" />
 </p>
 
 <h1 align="center">Projetos em Destaque • Instituto Mauá de Tecnologia</h1>

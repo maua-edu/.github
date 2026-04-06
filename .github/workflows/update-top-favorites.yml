@@ -1,0 +1,48 @@
+name: Update Top Favorites
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update-top-favorites.mjs"
+      - ".github/workflows/update-top-favorites.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-top-favorites:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Update ranking section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ORG_LOGIN: maua-edu
+          SHOWCASE_TOPIC: imt-showcase
+        run: node scripts/update-top-favorites.mjs
+
+      - name: Commit changes if needed
+        run: |
+          if git diff --quiet -- README.md profile/README.md; then
+            echo "No README changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md profile/README.md
+          git commit -m "chore: update top favorites"
+          git push
